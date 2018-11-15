@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3354FC96219BB5C50060244E /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3354FC95219BB5C50060244E /* Playground.swift */; };
+		339F9C76219BA5E90013A018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F9C75219BA5E90013A018 /* AppDelegate.swift */; };
+		339F9C78219BA5E90013A018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F9C77219BA5E90013A018 /* ViewController.swift */; };
+		339F9C7B219BA5E90013A018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339F9C79219BA5E90013A018 /* Main.storyboard */; };
+		339F9C7D219BA5EB0013A018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339F9C7C219BA5EB0013A018 /* Assets.xcassets */; };
+		339F9C80219BA5EB0013A018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339F9C7E219BA5EB0013A018 /* LaunchScreen.storyboard */; };
+		339F9C8B219BA5EB0013A018 /* QuiriopraticoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F9C8A219BA5EB0013A018 /* QuiriopraticoTests.swift */; };
+		339F9C96219BA5EB0013A018 /* QuiriopraticoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F9C95219BA5EB0013A018 /* QuiriopraticoUITests.swift */; };
+		339F9CA3219BA7310013A018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339F9C7C219BA5EB0013A018 /* Assets.xcassets */; };
+		339F9CA4219BA7320013A018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339F9C7C219BA5EB0013A018 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339F9C87219BA5EB0013A018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339F9C6A219BA5E90013A018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339F9C71219BA5E90013A018;
+			remoteInfo = Quiriopratico;
+		};
+		339F9C92219BA5EB0013A018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339F9C6A219BA5E90013A018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339F9C71219BA5E90013A018;
+			remoteInfo = Quiriopratico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3354FC95219BB5C50060244E /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
+		339F9C72219BA5E90013A018 /* Quiriopratico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiriopratico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339F9C75219BA5E90013A018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		339F9C77219BA5E90013A018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339F9C7A219BA5E90013A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		339F9C7C219BA5EB0013A018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339F9C7F219BA5EB0013A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		339F9C81219BA5EB0013A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339F9C86219BA5EB0013A018 /* QuiriopraticoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuiriopraticoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339F9C8A219BA5EB0013A018 /* QuiriopraticoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiriopraticoTests.swift; sourceTree = "<group>"; };
+		339F9C8C219BA5EB0013A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339F9C91219BA5EB0013A018 /* QuiriopraticoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuiriopraticoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339F9C95219BA5EB0013A018 /* QuiriopraticoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuiriopraticoUITests.swift; sourceTree = "<group>"; };
+		339F9C97219BA5EB0013A018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339F9C6F219BA5E90013A018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339F9C83219BA5EB0013A018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339F9C8E219BA5EB0013A018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		339F9C69219BA5E90013A018 = {
+			isa = PBXGroup;
+			children = (
+				3354FC95219BB5C50060244E /* Playground.swift */,
+				339F9C74219BA5E90013A018 /* Quiriopratico */,
+				339F9C89219BA5EB0013A018 /* QuiriopraticoTests */,
+				339F9C94219BA5EB0013A018 /* QuiriopraticoUITests */,
+				339F9C73219BA5E90013A018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		339F9C73219BA5E90013A018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339F9C72219BA5E90013A018 /* Quiriopratico.app */,
+				339F9C86219BA5EB0013A018 /* QuiriopraticoTests.xctest */,
+				339F9C91219BA5EB0013A018 /* QuiriopraticoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339F9C74219BA5E90013A018 /* Quiriopratico */ = {
+			isa = PBXGroup;
+			children = (
+				339F9C75219BA5E90013A018 /* AppDelegate.swift */,
+				339F9C77219BA5E90013A018 /* ViewController.swift */,
+				339F9C79219BA5E90013A018 /* Main.storyboard */,
+				339F9C7C219BA5EB0013A018 /* Assets.xcassets */,
+				339F9C7E219BA5EB0013A018 /* LaunchScreen.storyboard */,
+				339F9C81219BA5EB0013A018 /* Info.plist */,
+			);
+			path = Quiriopratico;
+			sourceTree = "<group>";
+		};
+		339F9C89219BA5EB0013A018 /* QuiriopraticoTests */ = {
+			isa = PBXGroup;
+			children = (
+				339F9C8A219BA5EB0013A018 /* QuiriopraticoTests.swift */,
+				339F9C8C219BA5EB0013A018 /* Info.plist */,
+			);
+			path = QuiriopraticoTests;
+			sourceTree = "<group>";
+		};
+		339F9C94219BA5EB0013A018 /* QuiriopraticoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339F9C95219BA5EB0013A018 /* QuiriopraticoUITests.swift */,
+				339F9C97219BA5EB0013A018 /* Info.plist */,
+			);
+			path = QuiriopraticoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339F9C71219BA5E90013A018 /* Quiriopratico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339F9C9A219BA5EB0013A018 /* Build configuration list for PBXNativeTarget "Quiriopratico" */;
+			buildPhases = (
+				339F9C6E219BA5E90013A018 /* Sources */,
+				339F9C6F219BA5E90013A018 /* Frameworks */,
+				339F9C70219BA5E90013A018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quiriopratico;
+			productName = Quiriopratico;
+			productReference = 339F9C72219BA5E90013A018 /* Quiriopratico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339F9C85219BA5EB0013A018 /* QuiriopraticoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339F9C9D219BA5EB0013A018 /* Build configuration list for PBXNativeTarget "QuiriopraticoTests" */;
+			buildPhases = (
+				339F9C82219BA5EB0013A018 /* Sources */,
+				339F9C83219BA5EB0013A018 /* Frameworks */,
+				339F9C84219BA5EB0013A018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339F9C88219BA5EB0013A018 /* PBXTargetDependency */,
+			);
+			name = QuiriopraticoTests;
+			productName = QuiriopraticoTests;
+			productReference = 339F9C86219BA5EB0013A018 /* QuiriopraticoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339F9C90219BA5EB0013A018 /* QuiriopraticoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339F9CA0219BA5EB0013A018 /* Build configuration list for PBXNativeTarget "QuiriopraticoUITests" */;
+			buildPhases = (
+				339F9C8D219BA5EB0013A018 /* Sources */,
+				339F9C8E219BA5EB0013A018 /* Frameworks */,
+				339F9C8F219BA5EB0013A018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339F9C93219BA5EB0013A018 /* PBXTargetDependency */,
+			);
+			name = QuiriopraticoUITests;
+			productName = QuiriopraticoUITests;
+			productReference = 339F9C91219BA5EB0013A018 /* QuiriopraticoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339F9C6A219BA5E90013A018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Poggers;
+				TargetAttributes = {
+					339F9C71219BA5E90013A018 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					339F9C85219BA5EB0013A018 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 339F9C71219BA5E90013A018;
+					};
+					339F9C90219BA5EB0013A018 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 339F9C71219BA5E90013A018;
+					};
+				};
+			};
+			buildConfigurationList = 339F9C6D219BA5E90013A018 /* Build configuration list for PBXProject "Quiriopratico" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339F9C69219BA5E90013A018;
+			productRefGroup = 339F9C73219BA5E90013A018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339F9C71219BA5E90013A018 /* Quiriopratico */,
+				339F9C85219BA5EB0013A018 /* QuiriopraticoTests */,
+				339F9C90219BA5EB0013A018 /* QuiriopraticoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339F9C70219BA5E90013A018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339F9C80219BA5EB0013A018 /* LaunchScreen.storyboard in Resources */,
+				339F9C7D219BA5EB0013A018 /* Assets.xcassets in Resources */,
+				339F9C7B219BA5E90013A018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339F9C84219BA5EB0013A018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339F9CA3219BA7310013A018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339F9C8F219BA5EB0013A018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339F9CA4219BA7320013A018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339F9C6E219BA5E90013A018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339F9C78219BA5E90013A018 /* ViewController.swift in Sources */,
+				339F9C76219BA5E90013A018 /* AppDelegate.swift in Sources */,
+				3354FC96219BB5C50060244E /* Playground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339F9C82219BA5EB0013A018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339F9C8B219BA5EB0013A018 /* QuiriopraticoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339F9C8D219BA5EB0013A018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339F9C96219BA5EB0013A018 /* QuiriopraticoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339F9C88219BA5EB0013A018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339F9C71219BA5E90013A018 /* Quiriopratico */;
+			targetProxy = 339F9C87219BA5EB0013A018 /* PBXContainerItemProxy */;
+		};
+		339F9C93219BA5EB0013A018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339F9C71219BA5E90013A018 /* Quiriopratico */;
+			targetProxy = 339F9C92219BA5EB0013A018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		339F9C79219BA5E90013A018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339F9C7A219BA5E90013A018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		339F9C7E219BA5EB0013A018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339F9C7F219BA5EB0013A018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339F9C98219BA5EB0013A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		339F9C99219BA5EB0013A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339F9C9B219BA5EB0013A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quiriopratico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poggers.quiropratico.Quiriopratico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339F9C9C219BA5EB0013A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Quiriopratico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poggers.quiropratico.Quiriopratico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		339F9C9E219BA5EB0013A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuiriopraticoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poggers.quiropratico.QuiriopraticoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiriopratico.app/Quiriopratico";
+			};
+			name = Debug;
+		};
+		339F9C9F219BA5EB0013A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuiriopraticoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poggers.quiropratico.QuiriopraticoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiriopratico.app/Quiriopratico";
+			};
+			name = Release;
+		};
+		339F9CA1219BA5EB0013A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuiriopraticoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poggers.quiropratico.QuiriopraticoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quiriopratico;
+			};
+			name = Debug;
+		};
+		339F9CA2219BA5EB0013A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuiriopraticoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = poggers.quiropratico.QuiriopraticoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Quiriopratico;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339F9C6D219BA5E90013A018 /* Build configuration list for PBXProject "Quiriopratico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339F9C98219BA5EB0013A018 /* Debug */,
+				339F9C99219BA5EB0013A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339F9C9A219BA5EB0013A018 /* Build configuration list for PBXNativeTarget "Quiriopratico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339F9C9B219BA5EB0013A018 /* Debug */,
+				339F9C9C219BA5EB0013A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339F9C9D219BA5EB0013A018 /* Build configuration list for PBXNativeTarget "QuiriopraticoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339F9C9E219BA5EB0013A018 /* Debug */,
+				339F9C9F219BA5EB0013A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339F9CA0219BA5EB0013A018 /* Build configuration list for PBXNativeTarget "QuiriopraticoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339F9CA1219BA5EB0013A018 /* Debug */,
+				339F9CA2219BA5EB0013A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339F9C6A219BA5E90013A018 /* Project object */;
+}
