@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3354FC96219BB5C50060244E /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3354FC95219BB5C50060244E /* Playground.swift */; };
+		337FC92A219E1CF6005F67A0 /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337FC928219E1CF6005F67A0 /* LoginVCViewController.swift */; };
+		337FC92B219E1CF6005F67A0 /* LoginVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 337FC929219E1CF6005F67A0 /* LoginVCViewController.xib */; };
 		339F9C76219BA5E90013A018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F9C75219BA5E90013A018 /* AppDelegate.swift */; };
 		339F9C78219BA5E90013A018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F9C77219BA5E90013A018 /* ViewController.swift */; };
 		339F9C7B219BA5E90013A018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339F9C79219BA5E90013A018 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		3354FC95219BB5C50060244E /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
+		337FC928219E1CF6005F67A0 /* LoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		337FC929219E1CF6005F67A0 /* LoginVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVCViewController.xib; sourceTree = "<group>"; };
 		339F9C72219BA5E90013A018 /* Quiriopratico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiriopratico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339F9C75219BA5E90013A018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		339F9C77219BA5E90013A018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				339F9C7C219BA5EB0013A018 /* Assets.xcassets */,
 				339F9C7E219BA5EB0013A018 /* LaunchScreen.storyboard */,
 				339F9C81219BA5EB0013A018 /* Info.plist */,
+				337FC928219E1CF6005F67A0 /* LoginVCViewController.swift */,
+				337FC929219E1CF6005F67A0 /* LoginVCViewController.xib */,
 			);
 			path = Quiriopratico;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 				339F9C80219BA5EB0013A018 /* LaunchScreen.storyboard in Resources */,
 				339F9C7D219BA5EB0013A018 /* Assets.xcassets in Resources */,
 				339F9C7B219BA5E90013A018 /* Main.storyboard in Resources */,
+				337FC92B219E1CF6005F67A0 /* LoginVCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 				339F9C78219BA5E90013A018 /* ViewController.swift in Sources */,
 				339F9C76219BA5E90013A018 /* AppDelegate.swift in Sources */,
 				3354FC96219BB5C50060244E /* Playground.swift in Sources */,
+				337FC92A219E1CF6005F67A0 /* LoginVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
